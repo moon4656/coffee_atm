@@ -17,3 +17,4 @@ class ItemList():
           '말차라떼': 6100 }
     
         self.add_menu = []
+        self.total_price = 0
