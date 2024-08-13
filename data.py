@@ -1,5 +1,5 @@
 
-from enum imoprt Enum
+from enum import Enum
 class Menu(Enum):
     ADD = 1
     REMOVE = 2
