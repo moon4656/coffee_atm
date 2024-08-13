@@ -6,7 +6,7 @@
 # 아이스티: 5900
 # 말차라떼: 6100
 
-class Itemlist():
+class ItemList():
     
     def __init__ (self):
         self.menu = { '아메리카노' : 4500,
