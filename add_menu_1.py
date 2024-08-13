@@ -5,8 +5,9 @@ def add_menu(itemlist:ItemList):
     
     cnt = 1
     print("========== Add menu ==========")
-    for menu in itemlist.menu:
-        print(f'{cnt} {menu}')
+    
+    for key, value in itemlist.menu.items():
+        print(f'{cnt} {key} {value}')
         cnt += 1
         
     print(f'{cnt} 동작취소')
