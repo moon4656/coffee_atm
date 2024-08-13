@@ -15,6 +15,8 @@ def remove_menu(item_list: ItemList):
         return
     
     
+    menu_name = item_list.add_menu[index - 1]
 
-    print(f'{index + 1}. {item_list.add_menu[index - 1]} 주문이 취소되었습니다.')
-    item_list.add_menu.remove(item_list.add_menu[index - 1])
+    print(f'{index + 1}. {menu_name} 주문이 취소되었습니다.')
+    item_list.total_price -= item_list.menu[menu_name]
+    item_list.add_menu.remove(menu_name)
