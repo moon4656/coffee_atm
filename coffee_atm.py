@@ -1,7 +1,12 @@
 
 from itemlist import ItemList
 from data import Menu
+from select_1 import select
+from add_menu_1 import add_menu
 from remove_menu import remove_menu
+from check_menu import check_menu
+from check_menu import check_menu
+
 # Main function
 def main():
     item_list = ItemList()
@@ -20,11 +25,11 @@ def main():
             check_menu(item_list)
             print("\n\n")
         elif choice == Menu.ORDER.value:
-            if order(item_list):
-                print("주문 완료. 프로그램을 종료합니다.")
-                break
-            else:
-                print("주문 보류!")
+            # if order(item_list):
+            #     print("주문 완료. 프로그램을 종료합니다.")
+            #     break
+            # else:
+            #     print("주문 보류!")
                 print("\n\n")
         elif choice == Menu.END.value:
             print("프로그램을 종료합니다")
