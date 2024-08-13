@@ -1,4 +1,6 @@
 
+from itemlist import ItemList
+
 # Main function
 def main():
     item_list = ItemList()
